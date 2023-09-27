@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:gray; 
+   
+    font-family: bold;
+    font-weight: bold;
+    height: 100vh;
+transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px;
+   
+    
+}
+.sidebar nav li a{
+ text-decoration: none;
+  color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    
+
+}
+
+.contianer{
+    display: flex;
+    
+}
+.infocontainer{
+    margin: 80px auto;
+     /* background-color:rgb(144, 81, 126);  */
+    height: 70vh;
+    width: 150vh;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 70vh;
+}
+.devinfo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 75px;
+    font-weight: bold;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+    font-weight: bold;
+}
+.moreabout{
+    font-size: 30px;
+    font-weight: bold;
+}
+.button button{
+margin-top: 30px;
+padding: 10px;
+border-radius: 15px;
+background-color: blue;
+color: white;
+font-family: 'Times New Roman';
+font-weight: bold;
+font-size: 20px;
+margin: 0 5px;
+
+border-color:black;
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+.button button a:hover{
+    background-color: white;
+    color: blue;
+}
+.button button:hover{
+    background-color: white;
+    color: blue;
+}
+.contactinfo{
+padding-top: 50px ;
+padding-left: 50px;
+font-family: 'fira Sans',sans-serif;
+}
+.contactinfo h1{
+font-family: 'Times New Roman', Times, serif;
+/* text-align:center ; */
+}
+.contactinfo form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+    
+.contactinfo form div input{
+    width: 40%;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+
+#emailHelp{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+   width: 24px;
+   margin: 3px 0;
+}
+.btn{
+    border: 5px;
+    background-color: blue;
+    color: white; 
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: blue;
+    background-color: white;
+
+}
+.skills{
+width: 500px;
+height: 20px;
+background-color: red;    
+}
+.js{
+    width: 390px;
+    height: 20px;
+    background-color: red;  
+}
+.c{
+    width: 450px;
+    height: 20px;
+    background-color: red;     
+}
+.ja{
+    width: 420px;
+    height: 20px;
+    background-color: red;  
+}
+.s{
+    width: 480px;
+    height: 20px;
+    background-color: red;  
+}
+.certi{
+    background-color: aliceblue;
+    width: 500px;
+    height: 100px;
+    
+}
+h3{
+    font-size: 40px;;
+}
+.certi h5{
+    font-size: 30px; 
+}
+.calls{
+   
+    width: 100%;
+    height: 100px;
+    text-align: center;
+   
+}
+.calls h2{
+    padding: 10px;
+}
+.aboutmain{
+background-color:white;
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: space-around;
+
+}
+.pic img{
+    width: 500px; 
+    height: 500px;
+}
+.aboutmain p{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.aboutmain p span{
+    color:red;
+}
+.hambuger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 160px;
+}
+.hambuger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 150px;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.resume{
+    
+}
+.resume img{
+    margin-left: 10px;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo1{
+    width: 300px;
+    height: 300px;
+}
+.inforesume{
+    display: flex;
+    justify-content: space-around;
+}
